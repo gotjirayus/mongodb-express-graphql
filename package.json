@@ -1,0 +1,35 @@
+{
+  "name": "express-mongodb-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec babel-node server",
+    "server": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "express-validator": "^6.1.1",
+    "graphql": "^14.4.2",
+    "graphql-compose": "^6.3.5",
+    "graphql-compose-connection": "^6.0.3",
+    "graphql-compose-mongoose": "^6.1.1",
+    "graphql-compose-pagination": "^6.0.3",
+    "mongoose": "^5.6.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "babel-preset-latest": "^6.24.1",
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
